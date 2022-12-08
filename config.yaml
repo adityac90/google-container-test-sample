@@ -15,9 +15,6 @@ fileExistenceTests:
     permissions: "-rw-r--r--"
 
 metadataTest:
-  env:
-    - key: "STAGE"
-      value: "dev"
   labels:
     - key: "maintainer"
       value: "aditya"
