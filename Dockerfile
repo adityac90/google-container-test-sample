@@ -5,8 +5,8 @@ WORKDIR /root
 
 ENV STAGE "dev"
 
-COPY ./docker-entrypoint.sh .
+COPY docker-entrypoint.sh .
 
 RUN date > /tmp/date.log
 
-ENTRYPOINT ["sh", "./docker-entrypoint.sh"]
+ENTRYPOINT ["sh", "docker-entrypoint.sh"]
