@@ -2,11 +2,9 @@ schemaVersion: "2.0.0"
 
 commandTests:
   - name: "it says hello"
-    command: "sh"
-    args:
-      - "./docker-entrypoint.sh"
+    command: "echo Hello world"
     expectedOutput:
-      - "hello"
+      - "Hello world"
 
 fileExistenceTests:
   - name: "date file exists"
@@ -21,7 +19,7 @@ metadataTest:
   exposedPorts: []
   volumes: []
   entrypoint:
-    - "sh"
-    - "docker-entrypoint.sh"
+    - "echo"
+    - "Hello world"
   cmd: []
   workdir: "/root"
