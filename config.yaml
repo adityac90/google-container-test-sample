@@ -2,7 +2,8 @@ schemaVersion: "2.0.0"
 
 commandTests:
   - name: "it says hello"
-    command: "echo Hello world"
+    command: "echo"
+    args: ["Hello world"]
     expectedOutput:
       - "Hello world"
 
