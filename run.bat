@@ -1,1 +1,1 @@
-container-structure-test.exe test --image my-image:latest --config ./config.yaml
+container-structure-test.exe test --image my-image:new --config ./config.yaml
