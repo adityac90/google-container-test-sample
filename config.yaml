@@ -22,6 +22,6 @@ metadataTest:
   volumes: []
   entrypoint:
     - "sh"
-    - "./docker-entrypoint.sh"
+    - "docker-entrypoint.sh"
   cmd: []
   workdir: "/root"
