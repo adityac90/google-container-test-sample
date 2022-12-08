@@ -9,4 +9,4 @@ COPY docker-entrypoint.sh .
 
 RUN date > /tmp/date.log
 
-ENTRYPOINT ["sh", "docker-entrypoint.sh"]
+ENTRYPOINT ["echo", "Hello world"]
